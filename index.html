@@ -1,196 +1,613 @@
 <!DOCTYPE html>
-<html >
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <link rel="stylesheet" href="dar.css">
-  
-     
-  </head>
-  <body>
-    <div class="theme-toggle">
-      <button id="theme-toggle-btn">Change theme</button>
-      <script src="dark.js"></script>
+<html lang="en" id="top">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta
+			name="description"
+			content="Williams Samuel is a self-taught Frontend and Mobile (Android & IOS - Cross Platform) Developer based in Lagos State, Nigeria, who is passionate about web and mobile development." />
+		<meta
+			name="keywords"
+			content="Frontend Developer, Mobile Developer, Open Source, Freelance Web Developer, Freelance Mobile Developer, React Native Developer, Developer Portfolio" />
 
-      </div>
-      </body>
-      </html>
-<!DOCTYPE html>
-<html>
-<head>
-<style>
-.container {
-  display: flex;
-  justify-content: right;
-  align-items: right;
-  height: 10hv;
-}
+		<meta name="description" content="Page description" />
+		<meta property="og:title" content="PRAKASH M - Frontend Developer" />
+		<meta
+			property="og:description"
+			content="Williams Samuel is a self-taught Frontend Web Developer based in Lagos State, Nigeria,  who specializes in building exceptional digital experience and passionate about web and mobile development." />
+		<meta
+			property="og:image"
+			content="https://williamssam.netlify.app/assets/samuel.jpg" />
+		<meta property="og:image:alt" content="Williams Samuel" />
+		<meta property="og:locale" content="en_GB" />
+		<meta property="og:type" content="website" />
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta property="og:url" content="https://www.williamssam.netlify.app/" />
+		<meta name="twitter:card" content="summary" />
+		<meta name="theme-color" content="#000000" />
+		<meta name="robots" content="index, follow" />
 
-.button {
-  display: inline-block;
-  padding: 5px 10px;
-  font-size: 24px;
-  cursor:pointer;
-  text-align: center;
-  text-decoration: none;
-  outline: none;
-  color: #fff;
-  background-color: #4CAF50;
-  border: none;
-  border-radius: 50px;
-  box-shadow: 0 6px #12cbc8;
-}
+		<link rel="icon" href="./assets/favicon-32x32.png" />
+		<link rel="icon" href="/favicon.ico" />
+		<link rel="apple-touch-icon" href="./assets/apple-touch-icon.png" />
+		<link rel="stylesheet" href="styles.css" />
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-.button:hover {
-  color:yellow;
-}
+		<!-- boxicons -->
+		<script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+		<script src="./script.js" defer></script>
+		<title>Williams Samuel - Frontend Developer</title>
+	</head>
+	<body>
+		<!-- only for keyboard users -->
+		<a class="skip-to-content" href="#main-content">Skip to content</a>
 
-.button:active {
-  background-color:aquamarine;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
-}
-</style>
-</head>
+		<header class="main-header">
+			<nav class="nav slide-in-top">
+				<div class="container">
+					<a href="#">
+						<img src="./assets/samuel.jpg" alt="williams" class="logo" />
+						<title>Logo</title>
+					</a>
 
-<body>
-  <div class="container">
-    <a class="button" href="https://accounts.google.com/v3/signin/identifier?dsh=S-519069346%3A1684424410561243&continue=https%3A%2F%2Fwww.google.com%3Fhl%3Den-US&ec=GAlA8wE&hl=en&flowName=GlifWebSignIn&flowEntry=AddSession">Login</a>
-  </div>
-</body>
+					<ul class="nav-list">
+						<li>
+							<a href="#about" class="nav-links hover-effect">About</a>
+						</li>
+						<li>
+							<a href="#skills" class="nav-links hover-effect">Skills</a>
+						</li>
+						<li>
+							<a href="#projects" class="nav-links hover-effect">Projects</a>
+						</li>
+						<li>
+							<a href="#contact" class="nav-links hover-effect">Contact</a>
+						</li>
+					</ul>
+
+					<ul class="social-nav">
+						<li>
+							<a
+								href="https://twitter.com/williams_codes"
+								rel="noreferrer"
+								target="_blank"
+								aria-label="link to twitter profile">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									width="18"
+									height="18"
+									viewBox="0 0 24 24"
+									style="fill: currentColor">
+									<path
+										d="M19.633 7.997c.013.175.013.349.013.523 0 5.325-4.053 11.461-11.46 11.461-2.282 0-4.402-.661-6.186-1.809.324.037.636.05.973.05a8.07 8.07 0 0 0 5.001-1.721 4.036 4.036 0 0 1-3.767-2.793c.249.037.499.062.761.062.361 0 .724-.05 1.061-.137a4.027 4.027 0 0 1-3.23-3.953v-.05c.537.299 1.16.486 1.82.511a4.022 4.022 0 0 1-1.796-3.354c0-.748.199-1.434.548-2.032a11.457 11.457 0 0 0 8.306 4.215c-.062-.3-.1-.611-.1-.923a4.026 4.026 0 0 1 4.028-4.028c1.16 0 2.207.486 2.943 1.272a7.957 7.957 0 0 0 2.556-.973 4.02 4.02 0 0 1-1.771 2.22 8.073 8.073 0 0 0 2.319-.624 8.645 8.645 0 0 1-2.019 2.083z"></path>
+								</svg>
+							</a>
+						</li>
+						<li>
+							<a
+								href="https://www.linkedin.com/in/williamscodes/"
+								rel="noreferrer"
+								target="_blank"
+								aria-label="link to linkedin profile"
+								><svg
+									xmlns="http://www.w3.org/2000/svg"
+									width="18"
+									height="18"
+									viewBox="0 0 24 24"
+									style="fill: currentColor">
+									<circle cx="4.983" cy="5.009" r="2.188"></circle>
+									<path
+										d="M9.237 8.855v12.139h3.769v-6.003c0-1.584.298-3.118 2.262-3.118 1.937 0 1.961 1.811 1.961 3.218v5.904H21v-6.657c0-3.27-.704-5.783-4.526-5.783-1.835 0-3.065 1.007-3.568 1.96h-.051v-1.66H9.237zm-6.142 0H6.87v12.139H3.095z"></path>
+								</svg>
+							</a>
+						</li>
+						<li>
+							<a
+								href="https://github.com/williamssam"
+								rel="noreferrer"
+								target="_blank"
+								aria-label="link to github account"
+								><svg
+									xmlns="http://www.w3.org/2000/svg"
+									width="18"
+									height="18"
+									viewBox="0 0 24 24"
+									style="fill: currentColor">
+									<path
+										fill-rule="evenodd"
+										clip-rule="evenodd"
+										d="M12.026 2c-5.509 0-9.974 4.465-9.974 9.974 0 4.406 2.857 8.145 6.821 9.465.499.09.679-.217.679-.481 0-.237-.008-.865-.011-1.696-2.775.602-3.361-1.338-3.361-1.338-.452-1.152-1.107-1.459-1.107-1.459-.905-.619.069-.605.069-.605 1.002.07 1.527 1.028 1.527 1.028.89 1.524 2.336 1.084 2.902.829.091-.645.351-1.085.635-1.334-2.214-.251-4.542-1.107-4.542-4.93 0-1.087.389-1.979 1.024-2.675-.101-.253-.446-1.268.099-2.64 0 0 .837-.269 2.742 1.021a9.582 9.582 0 0 1 2.496-.336 9.554 9.554 0 0 1 2.496.336c1.906-1.291 2.742-1.021 2.742-1.021.545 1.372.203 2.387.099 2.64.64.696 1.024 1.587 1.024 2.675 0 3.833-2.33 4.675-4.552 4.922.355.308.675.916.675 1.846 0 1.334-.012 2.41-.012 2.737 0 .267.178.577.687.479C19.146 20.115 22 16.379 22 11.974 22 6.465 17.535 2 12.026 2z"></path>
+								</svg>
+							</a>
+						</li>
+					</ul>
+
+					<div class="hamburger">
+						<div class="line-menu half start"></div>
+						<div class="line-menu"></div>
+						<div class="line-menu half end"></div>
+					</div>
+				</div>
+			</nav>
+		</header>
+
+		<main id="main-content">
+			<!-- hero section -->
+			<section class="hero">
+				<div class="container">
+					<article class="hero-text bounce-in-left">
+						<div>
+							<p class="subtitle">hi there 👋🏽, i'm</p>
+							<h1 class="name">Williams Samuel</h1>
+						</div>
+						<div>
+							<p class="intro">
+								A Lagos, Nigeria based self-taught Frontend Developer who
+								specializes in building exceptional digital experience.
+							</p>
+
+							<div class="hero-btn-container">
+								<a href="mailto:samwill300@gmail.com" class="btn hire-btn">
+									Hire Me
+								</a>
+								<!-- <a href="#" download="" class="btn download-link"
+									>Download CV</a
+								> -->
+							</div>
+						</div>
+					</article>
+					<img
+						src="./assets/coding-ground.png"
+						alt="coding desk"
+						class="fade-in code" />
+				</div>
+			</section>
+
+			<!-- about section -->
+			<section class="about-me" id="about">
+				<div class="container" data-aos="fade-up">
+					<img src="./assets/williams.jpg" alt="Williams Samuel" />
+					<article>
+						<p class="subtitle">Who is Williams Samuel?</p>
+						<h2 class="title">A Bit About Me</h2>
+						<div class="about">
+							<p>
+								I'm passionate about deciphering challenging problems and
+								creating exceptional digital experience.
+							</p>
+							<p>
+								As I've grown as a developer, I've contributed to projects and
+								worked with other developers to create working applications and
+								have written code that are maintainable and easy to understand.
+							</p>
+							<p>
+								Through my studies, I've gained a solid understanding of web
+								development concepts, and have dedicated a lot of time to apply
+								these concepts to real-world scenarios and applications.
+							</p>
+							<p>
+								When I'm not trying to build, learning, exploring and thinking
+								about how to make things better 😉, you can catch me watching
+								football matches ⚽.
+							</p>
+						</div>
+					</article>
+				</div>
+			</section>
+
+			<!-- my skills -->
+			<section class="my-skills" id="skills" data-aos="fade-up">
+				<div class="container">
+					<article>
+						<p class="subtitle">My Skills</p>
+						<h2 class="title">Technologies I Work With</h2>
+
+						<p class="info">
+							I've have taken a number of online courses, currently getting my
+							hands dirty with
+							<strong>Flutter & React Native</strong> and here are a few
+							technologies I’ve been working with recently:
+						</p>
+					</article>
+					<ul>
+						<li>HTML & CSS</li>
+						<li>Tailwind CSS</li>
+						<li>SCSS</li>
+						<li>Javascript (ES6+)</li>
+						<li>Typescript</li>
+						<li>React Js</li>
+						<li>Styled Component</li>
+						<li>Next Js</li>
+						<li>Svelte/SvelteKit</li>
+						<li>Git</li>
+						<li>React Native</li>
+					</ul>
+				</div>
+			</section>
+
+			<!-- projects section -->
+			<section class="projects-section" id="projects">
+				<div class="container">
+					<article data-aos="fade-up">
+						<p class="subtitle">My projects</p>
+						<h2 class="title">Some Things I Built</h2>
+						<p class="info">
+							I like to stay busy and always have a project in the works. Take a
+							look at some of the applications I've have built
+						</p>
+					</article>
+					<section class="projects">
+						<!-- 01 -->
+						<article class="project">
+							<a
+								href="https://www.lavidluxe.com/"
+								target="_blank"
+								rel="noreferrer"
+								class="project-img"
+								><img
+									src="./assets/lavidluxe.jpeg"
+									alt="the movieflix screenshot"
+									title="the/movieflix"
+							/></a>
+							<div>
+								<h3>01</h3>
+								<h2>Lavidluxe Clothings</h2>
+								<p>
+									An ecommerce store for Lavidluxe clothings. Lavidluxe is a premium bespoke and ready-to-wear brand that provides high-quality yet affordable female and male wears, hoodies and joggers co-ord sets, luxury handmade unisex footwear and bags.
+								</p>
+								<ul class="tech-stack">
+									<li>Next Js</li>
+									<li>Tailwind CSS</li>
+									<li>Tanstack Query</li>
+									<li>Sanity CMS</li>
+									<li>Paystack</li>
+									<li>Nodemailer</li>
+									<li>Zustand and Jotai</li>
+								</ul>
+								<ul class="project-links">
+									<li>
+										<a
+											href="https://www.lavidluxe.com/"
+											target="_blank"
+											rel="noreferrer"
+											class="hover-effect"
+											>Live Site →</a
+										>
+									</li>
+									<li>
+										<a
+											href="https://github.com/williamssam/lavidluxe-client"
+											target="_blank"
+											rel="noreferrer"
+											class="hover-effect"
+											>Github →</a
+										>
+									</li>
+								</ul>
+							</div>
+						</article>
+
+						<!-- 02 -->
+						<article class="project">
+							<a
+								href="https://themovieflix.netlify.app/"
+								target="_blank"
+								rel="noreferrer"
+								class="project-img"
+								><img
+									src="./assets/movieflix.jpg"
+									alt="the movieflix screenshot"
+									title="the/movieflix"
+							/></a>
+							<div>
+								<h3>02</h3>
+								<h2>The MovieFlix</h2>
+								<p>
+									View trending, popular etc movies/tv series before deciding on
+									what to watch 😉. With similar & recommended movies/tv series,
+									you can add movies to your wishlist.
+								</p>
+								<ul class="tech-stack">
+									<li>React Js</li>
+									<li>SWR (useSWR)</li>
+									<li>Context Api (useContext)</li>
+									<li>Firebase</li>
+									<li>React Hook Form</li>
+									<li>Framer Motion</li>
+								</ul>
+								<ul class="project-links">
+									<li>
+										<a
+											href="https://themovieflix.netlify.app/"
+											target="_blank"
+											rel="noreferrer"
+											class="hover-effect"
+											>Live Site →</a
+										>
+									</li>
+									<li>
+										<a
+											href="https://github.com/williamssam/the-movieflix"
+											target="_blank"
+											rel="noreferrer"
+											class="hover-effect"
+											>Github →</a
+										>
+									</li>
+								</ul>
+							</div>
+						</article>
+
+						<!-- 03 -->
+						<article class="project">
+							<a
+								href="https://gh-profiles.netlify.app/"
+								target="_blank"
+								rel="noreferrer"
+								class="project-img"
+								><img
+									src="./assets/gh-profile.jpg"
+									alt="github profile website screenshot"
+									title="github profile"
+							/></a>
+							<div>
+								<h3>03</h3>
+								<h2>Github Profile</h2>
+								<p>
+									A better and interesting look at your github profile which
+									includes data visualization of your top languages, starred
+									repos, stars per language and sort your top repos according to
+									the number of forks, stars and size.
+								</p>
+								<ul class="tech-stack">
+									<li>React & Typescript</li>
+									<li>Github GraphQL Api</li>
+									<li>Styled Component</li>
+									<li>Chart Js</li>
+									<li>Github Polyghot</li>
+								</ul>
+								<ul class="project-links">
+									<li>
+										<a
+											href="https://gh-profiles.netlify.app/"
+											target="_blank"
+											rel="noreferrer"
+											class="hover-effect"
+											>Live Site →</a
+										>
+									</li>
+									<li>
+										<a
+											href="https://github.com/williamssam/github-profile"
+											target="_blank"
+											rel="noreferrer"
+											class="hover-effect"
+											>Github →</a
+										>
+									</li>
+								</ul>
+							</div>
+						</article>
+
+						<!-- 04 -->
+						<article class="project">
+							<a
+								href="https://covid-map-dashboard.netlify.app/"
+								target="_blank"
+								rel="noreferrer"
+								class="project-img"
+								><img
+									src="./assets/covid-map.jpg"
+									alt="covid map dashboard website screenshot"
+									title="covid map dashboard"
+							/></a>
+							<div>
+								<h3>04</h3>
+								<h2>Covid Map Dashboard</h2>
+								<p>
+									A look at the current Global Coronavirus (Covid-19) cases
+									including confirmed and recovered cases, total deaths, active
+									cases, critical cases etc with map to indicate individual
+									country confirmed cases. It also incorporate graphs to
+									visualize the global cases.
+								</p>
+								<ul class="tech-stack">
+									<li>React</li>
+									<li>CSS Modules</li>
+									<li>Axios</li>
+									<li>Context Api (useContext)</li>
+								</ul>
+								<ul class="project-links">
+									<li>
+										<a
+											href="https://covid-map-dashboard.netlify.app/"
+											target="_blank"
+											rel="noreferrer"
+											class="hover-effect">
+											Live Site →
+										</a>
+									</li>
+
+									<li>
+										<a
+											href="https://github.com/williamssam/coronavirus-map-dashboard"
+											target="_blank"
+											rel="noreferrer"
+											class="hover-effect">
+											Github →
+										</a>
+									</li>
+								</ul>
+							</div>
+						</article>
+
+						<!-- 05 -->
+						<article class="project">
+							<a
+								href="https://williamssam.github.io/ip-address-tracker/"
+								target="_blank"
+								rel="noreferrer"
+								class="project-img"
+								><img
+									src="./assets/ipaddress-tracker.jpg"
+									alt="ip address tracker website screenshot"
+									title="ip address tracker"
+							/></a>
+							<div>
+								<h3>05</h3>
+								<h2>IP Address Tracker</h2>
+								<p>
+									Track any Ip address in the world and view their current
+									location, where the Ip was registered, timezone, and isp. It
+									also indicates the current location of the Ip Address on a
+									map.
+								</p>
+								<ul class="tech-stack">
+									<li>HTML</li>
+									<li>CSS</li>
+									<li>Javascript</li>
+									<li>Chart js</li>
+									<li>Leaflet js</li>
+								</ul>
+								<ul class="project-links">
+									<li>
+										<a
+											href="https://williamssam.github.io/ip-address-tracker/"
+											target="_blank"
+											rel="noreferrer"
+											class="hover-effect"
+											>Live Site →</a
+										>
+									</li>
+									<li>
+										<a
+											href="https://github.com/williamssam/ip-address-tracker"
+											target="_blank"
+											rel="noreferrer"
+											class="hover-effect"
+											>Github →</a
+										>
+									</li>
+								</ul>
+							</div>
+						</article>
+
+					</section>
+
+					<!-- others -->
+					<section class="other-noteworthy-project" data-aos="fade-up">
+						<h3>Other Noteworthy Projects</h3>
+						<ul class="other-projects">
+							<li>
+								<a
+									href="https://rest-countries-with-sveltekit.vercel.app/"
+									target="_blank"
+									rel="noreferrer"
+									><img
+										src="./assets/rest-countries.png"
+										alt="rest countries page screenshot" />
+									<div>
+										<h4>Rest Countries App</h4>
+										<p>
+											Displays all the countries in the world, their population,
+											region and capital. Search for any country and filter
+											based on region with dark mode
+										</p>
+										<ul>
+											<li>Svelte/SvelteKit</li>
+											<li>Tailwind CSS</li>
+										</ul>
+									</div></a
+								>
+							</li>
+							<li>
+								<a
+									href="https://williamssam.github.io/wordsearch/"
+									target="_blank"
+									rel="noreferrer"
+									>
+									<img
+										src="./assets/joke-bot.jpg"
+										alt="joke web bot page screenshot" />
+									<div>
+										<h4>Joke Web Bot</h4>
+										<p>
+											Web bot searches for jokes on the internet by clicking on 'get a joke button' and reads out the joke to you using the 'speechsynthesis api'.
+										</p>
+										<ul>
+											<li>React js</li>
+										</ul>
+									</div></a
+								>
+							</li>
+						</ul>
+					</section>
+				</div>
+			</section>
+
+			<!-- contact section -->
+			<section class="contact" data-aos="fade-up">
+				<div class="container">
+					<p class="subtitle">Have a project? or just looking to hire?</p>
+					<h2 class="title">Let's Work Together</h2>
+					<p class="info">
+						Feel free to reach out if you're looking to hire, just want to
+						connect or see if we can build something amazing together.
+					</p>
+
+					<div>
+						<a href="mailto:samwill300@gmail.com" class="mail-link hover-effect"
+							>Get in touch →</a
+						>
+						<!-- <small>(or copy) samwill300@gmail.com</small> -->
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<footer class="footer" id="contact">
+			<div class="container">
+				<p>&copy; <span id="date"></span> Williams Samuel</p>
+				<div>
+					<ul>
+						<li>
+							<a
+								href="https://github.com/williamssam"
+								rel="noreferrer"
+								target="_blank"
+								class="hover-effect"
+								>github</a
+							>
+						</li>
+						<li>
+							<a
+								href="https://twitter.com/williams_codes"
+								rel="noreferrer"
+								target="_blank"
+								class="hover-effect"
+								>twitter</a
+							>
+						</li>
+					</ul>
+					<a href="#top" class="top">
+						<p class="scroll">scroll <span>to top</span></p>
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							width="24"
+							height="24"
+							viewBox="0 0 24 24"
+							style="fill: currentColor">
+							<title>scroll to top</title>
+							<path
+								d="m6.293 11.293 1.414 1.414L12 8.414l4.293 4.293 1.414-1.414L12 5.586z"></path>
+							<path
+								d="m6.293 16.293 1.414 1.414L12 13.414l4.293 4.293 1.414-1.414L12 10.586z"></path>
+						</svg>
+					</a>
+				</div>
+			</div>
+		</footer>
+	</body>
 </html>
-
-
-
-
-<html>
-<head>
-  <link rel="icon" type="png" href="facebook.png">
- 
-	<title>PRAKASH</title>
-	<style>
-		.animated-text {
-			font-size: 60px;
-		
-			font-family:Arial, Helvetica, sans-serif;
-			animation: animateText 5s ease-in-out infinite alternate;
-      animation-delay:5s;
-		}
-		
-		@keyframes animateText {
-      0%{color:red;}
-                 25%{color:orange;}
-                  50%{color:aqua;}
-                   75%{color:yellow;}
-                  100%{color:green;}
-			from { transform: translateX(0); }
-			to { transform: translateX(490px); }
-      
-		}
-	</style>
-</head>
-<body>
-	<div class="animated-text", onclick="fun()">Welcome to my website</div>
-</body>
-</html>
-
-
-
-
-
-<html>
-<head>
-  
-  
-    <style>
-      @keyframes pulse {
-        0% {
-          transform: scale(1);
-          color:yellow;
-        }
-        50% {
-          transform: scale(1.2);
-          color: #f00;
-        }
-        75% {
-          transform: scale(1.2);
-          color:green;
-        }
-        100%
-        {
-          transform:scale(1);
-          color:aqua;
-        }
-      }
-      
-      h2{
-        font-size: 2rem;
-        text-align: center;
-        animation: pulse 15s linear infinite;
-        margin: 1px;
-        padding: 1rem 0;
-      }
-      
-      
-    </style>
-  </head>
-
-
-<style type="text/css">
-
-p{color:blue;}
-h1{ width:200px;
-                height:150px;
-                background-color:;
-                animation-name:example;
-                animation-duration:15s;}
- @keyframes example{
-              
-                   
-                
-            }
-h2:hover{
-
-color:aqua;
-}
-h3:hover{
-color:orange;
-
-
-}
-h2{color:orange;}
-</style>
-<body>
-</body>
-<body>
-
-<H2 ALIGN="center" onclick="game()">SOCIAL MEDIA<HR ></H2>
-<centre>
- <p> <a href="https://www.youtube.com/"><image src="data:image/jpeg;base64,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" title="YOUTUBE" ></a> <p style="text-align:center;">  <a href="https://www.facebook.com//"><image src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAMAAzAMBEQACEQEDEQH/xAAcAAEAAgMBAQEAAAAAAAAAAAAABgcBBAUCAwj/xABJEAABBAEBBAQHCwoEBwAAAAAAAQIDEQQFBhIhMQdBYXETIlFzgbHBFCYyNUJScpGSodEVIzM2U1RigpPSFyQ0whZDVYOi4fD/xAAaAQEAAwEBAQAAAAAAAAAAAAAAAQUGBAID/8QANREBAAECAwUFBgYCAwAAAAAAAAECAwQFERIhMVGBEyIyQdEVNGFxofAUM1KRscEj4SRC8f/aAAwDAQACEQMRAD8AvEAAAAAAGpn6hjYESy5c7Y2dq8V7kPpbtV3atKI1fK7et2adqudER1PbiRyqzTYdxv7WVOPoQt7GVRG+7PSFFiM6qndZjrPoi2Zn5ec/fy8mSZeredwTuTknoLW1Zt2o0oiIU169cvTrcqmfvk1z6aPkWvlAEgAAzakaDBIclRU5pyXrQjQdrTtp9UwFRFm90RdbJ1v7+frOG9gLN3XdpPwWGHzLE2vPaj4+qYaPtVg6hUcjvc0/zJOS9ylPiMvu2t8b4X2GzOze3Vbp5O8i3yU4VlExPB6AAAAAAAAAAAHl60nOiESimv7YR4aux9NRs06cHSLxYxfapa4XLarneubo+qnxmaxa7lrfPPy/2g+Zl5GZOs2XM+aRflOX1eTuQvbdum3Ts0xpDOXbtd2rarnWXw3j6PBYCwFgLAWAsBYCwFgLCNC+XYEu5oW0+Zpj0jlcs+JyWNy8WfRX2Fficvt3o1p3VffkscJmV6xOzVOtP35rB0vU8bU4GzYcqOb8pq829ioZ+9Zrs1bNcNPh8Rbv07VEt8+T7gAAAAAAAHznkZHEskjkaxvFXKvBEJiJqnSOKKpiI1lXm021L85XYmnPczFTg6ROCyfgnrL/AAWXxb79yO9y5MzmGZ1Xf8dqdKefNGEXsotlPw3M2AsBYCwFgLAWAsBYCwFgLAWAsDY0/PyNPyG5GHIsb2r6HdiofG9ZovU7NyNYfaxeuWK9uidJWVs7r0GsxcKjyWp+ciVeXanlQzWKwdeHq3748pavB46jE08p5ffk7ZyO4AAAAADxI5rWKquRETiqqOO5EzERrKttrNo11ORcTEc5uIxacqf81fL3GjwGC7GNuuO9/DL5jmHbz2due7z5/wCkc4FlCqCQAAAAAAACQI1hiwMgOQAJAgAAfXFyZsTJZkY0ismjW2uT/wC4oeLlui5TNNcbnq3crtVRXTO+FobNa5DrOJvpTMhiVLHfJfKnYZbF4WrDV6Twng1+CxlOKo18/OHZtDldrIAABheSoBBtuteVqrpWI9eX+YcnV/CntLrLMHr/AJq4+Xqoc1xsx/gtz85/pCL7C8Z8JSAAAAAAABAiW5GolqvJE4qpEzonTVIdM2P1TOp0zW4kS/teL6+intorr2Z2be6nvfJZ2Mqv3d9fdhIsfYLT2InuieeV3ejU+4r6s3vT4YiFlRktiPFMy202K0SuMEq98zvxPl7UxPP6Pr7Jwv6frLy/YjRlSmxzN7UlUmM0xHw/ZE5RhfKJ/dqS7A4S34LLyGdi7qp6j605vdjxUxL41ZJZnfFU/RF9pdBXQpYGrkeFSbe3fErdqu3tLLBYv8TEzs6aKnHYL8LMRta6uMd7iAAN7a0vUZ9LzI8vGVN5nwmqvB6daKfC/YpvW9ip9rF+uxci5T/6trSs6DUsOLLxluORvJebV60XtQyd21VZrm3VxhsrN6m9RFynhLcRbPm+rIADk7SaszSNLfPaeFd4sSeVynThMPOIuxT5eblxmJjD2pr8/L5qkfI6R7nyOVz3u3nOXrU1tMREaR5MdVM1TMzPF5sl5LAWAsBYCwFgLA+uJBNl5MePjRq+Z601p4ruU0UTXVwfS3bquVxRTG9Z2zmzOLpETXuRsuYqeNKqfB7G9hmMXjrmIq3bqeTVYPAUYaN++rm7zWqhxO96AAAAEC6Tv02m90v+0vMm4V9P7Z/PONvr/SE2XaiLAWAvyhKTbDa0uDn+4pnVBkLTfI1/V9fIqszwvaW9unjT/C1yrFdlc7OrhV/Ky28jO8d7TQ9BIvICqtttV/KOsOijfcGNcbK63fKX2eg02W4fsrMVTxn7hlc0xHa3ppjhTu6+aPWWStLAWAsBYCwFgLAWpGhCx9gdHTFwfyhK389kJ4l/JZ1V3mczTEzcudlHCP5aXKcJFu32tXin+EuRKKtbaMhIAAAAID0n/ptN+jL/ALS9yXhc6f2z+d+K31/pB7LpRlkhYCwMoqpxS7ReCp1ETAtvZPVvyto8cr1RZ4/zcyfxJ1+lKX0mTxuH7C9NMcPJr8BiO3sxVPHzdo5Ha5m0OoppmjZOV8trFRnH5S8EOjCWu2vU0fejmxV7sbNVamrVVtea81NfEaMaWSgsBYCwFgLAWAsD74GM7NzcbFatLPK2O06rWlU8Xa9i3VXPlGr6WrfaXIo5zou2GNkUbGRtRrGtRrWp1InUYqZmqqZltqYiIiIfQPQBhVA8SSsiar5XNY1ObnLSITETM6QiZiN8ua/aXRo3K1+o46OTmm8dFODxExrsS5pxuHidJrh5/wCKNE/6lB9o9fgcR+iUfjsN+uEN6QNTwtSfgrg5LJvBo9HbnVe7+Bb5XYu2Yr26dNdFLm1+1emjs6tdNURstlQWAsBYC16uYSlXR7qK42sOxHLUeU3l/EnL2lVm1nbs7ccYWuUXti9sT5rNbyM200IJ0mZytjw8FqrT3LI7uTgnrLvJrWs1XOijzi53abaAl+odAGgDQBoA0AaANAGgQaO9sPH4bajCtODd93/iv4nFmU6Yar46R9Xflka4qnr/AAtujKNWyAA8vVG8VWkTmRKNVQbTa5PrGoS3I5MWN6tijvhSdfbZrcFhKbFEbu8yWMxdV+uY17rj+g7XGwAI0AGgSaANAGgDR9sPJdh5UOSy96J6PSuxT53KIromifN7t19nXFUeS78aRJoGStW2vajk9Ji6qZpmaZ8m1pq2oiVU7eZK5G02Q1OUDWxp9Vr6zUZZRsYaPjvZfM69rEz8NyP2WCvLAWAsBYCwFgLAWBJOj39ZofNP9hXZr7tPzhZZVH/J6LXMu1AAA19QVUwchyc0jd6j3b8cPFzwSopi01O4208WIh6sBYCwFgLAWAsBYGFW+QFv7EZK5WzOG53wo2rGv8q17DJZhb2MTVHX92ty+5t4amZ+X7Kr1qXw+s58qraOyZFTu3lo0+Hp2bNEfCGaxM7V6uZ5y0rPu+BYCwFgLAWAsBYCwJL0eL754vNPK3Nfdp6LPKveenotky7TAADW1L/QZHm3eo92/HDxc8MqJavip3G3nixLNgLAWAsBYCwFgLAzY0Fg9Hmox42izRSu4pkuVOxN1v8A7KDNbM13omOXqv8AKrsU2Ziefor6V+/LI75zld9al9EaRooqp1mZeLJQWAsBYCwFgN5E5koY32/OQjQY32/PQaCT9HTkXaiGv2TyuzX3aeizyr3notsyzTAADW1L4vyfNO9R7t+OHivwyoZr27qW5E4G4mN7Em+356EaBvt+eg0HpFReXEJLAWAsBYCwAHR03PfiwuY11W/e+5DnvWYrq1dNi9NFMw50ibj3N+a5U+pToidY1c8xpOjzZKCwFgLAWAsCd9Fsccr9R8JG11JH8Jt+Uos6mYijSea8yeNdron/ALlx/wBhF9hCj26+crvZp5HuTH/d4vsINuvnJs08npkETHbzImNXytaiETMzxlGkR5PsQ9AADDkRUpUtAPh7lx7/ANPF9hD1t1c0bNJ7kx/3eL7CDbr5ybNPI9y4/wCwh+wg26+cmzTyU/tpMyXafP8AB7u4xyRojUpE3Woi/fZq8vp2cNRr5+rKZhVtYmr78nFs7XGWSFgLAWAsDcw8R+TGr2paI6j43LsUTpL72rM1xrDzrDPA6vnxckZlStT0OUnDztWaZ+EfwYiNL1UfGWmfV8QAAAAAJ/0UfD1Luj9pQ53wo6rzJuFfRYpRLsAAAAAAAAAeVWl7CN4oXUchcrUcvIr9LM9/1uVTcWqdi3TTyiGMvTtXaqucy1z6PmAAAABYE/6PtLbm6NPK9OWS5qX9FpRZpfm3eiI5f3K8yyzFdmZnn6I9t3jLi7VZq8km3ZW9ypx+9FO/Lbm3haPhrDizG3s4ir4o/Z3OEsBYCwFgLAsDon4v1Luj9pRZ3wo6rvJ+FfRYxQrsAAAAAAAAAaOsz+5tKzZ7rchcqL20fSxTt3aafi+V6rZt1T8FD718VNwx3EsgLAWAsBYC+floC4+j/GXG2Vw974Uu9Kv8y2n3UZPM69vFVfDc1OX0bGGpRrpWwalws9reCosT1+9Pb9Z35Ld1iq31cOb2/DcV/ZfKUsBYCwFgLAlGxG0uHs87LXMhyZPDbu74FrVqr52qeUrMxwVzFRTsTG7mscBi6MPFW3rvSv8AxL0f9y1L+nH/AHlb7Fv/AKo+vosfa1jlP31P8S9H/ctS/px/3k+xb/6o+voe1rHKfvq6Gh7a6dreotwcXGzGSOart6VjEbSdzlOfE5bdw9vtKpjT4a+j7WMfav17FMTqkpXu0AAfOeVsEMkr0VWsarlROfAmmNqdETOkaoanSZo68sPUV/7cf95b+xcR+qPr6K32tY5T99Wf8S9I/ctS/px/3j2Lf/VH19D2tY5T99XM2j2807VNGysLFx81kszUaiyMYiJx7HKffC5VdtXqa65jSPn6PhicytXLVVFMTrP3zV/ZeqQsBYCwFgLA+mPC/JnjgjTx5XIxO9VPNdUU07U+SaaZqqimF+4MDcXEhx2IiNjYjUROqkMPXXNdU1T5tlRTFNMUw5W2GmLqmz+VA1tyNb4SP6ScTpwN7scRFT4Yu12tmaVI35UU2LKFgLAWAsBYCwFgLCEp6NV99cXmX+pCtzb3WfnCyyv3jouEyrRgADW1L4vyfNO9R7t+OHmrwy/PrV4IbqeLGaM2hCQBYCwFgLAWAsCVdHGne7toGzvbcWK3wir/ABcmlZm17s7Gz+pY5ZZ2721yW+0yzRlAUnttpC6Pr07GNrGnXwsNcqXmnoX7qNdl2I7exEzxjdPqzGOsdlendung4Fne4iwFgLAWAsBYCwJV0afrXF5l/sK3NvdZ+cLHLPeOi4jKNGAANbUvi/J8071Hu344eauEvz21fFQ3UsazYCwFgLAWAsBYC05r1DTUhcvR/o35K0GN0rd3Iyl8LIi82p8lvoT71UyWZYnt786cI3Q0+AsdjZjXjKTle7QSI1tvoX5a0dzYm3kwXJD2+VvpO7L8V+Hvaz4Z4uTG4ft7e7jCll4KrVSlTgqL1Ka/cy8xpxAgsAAsBYCwAEr6M199cXmX+pCtzb3WfnCyyz3jouMyjRAADW1L4vyfNO9R7t+OHmrhL88oviobqWOZsILAWAsAAsBYSkuwehLrOsNfK28TGVHycODl+S0rsyxcWLWkcZd2X4btrms8IXO1KSjJtK9AAMKnAgVV0k7NLh5C6thM/wAtMv59qJ+jf5e5fuXvNJlWN26exrnfHBRZjhNmrtaI3Sgl9lF1Cq0LJNCwaFg0LBoWDQsGiWdGX62xeZf7Cszb3WfnCxyz3jouUyjQgADW1"  ></a>  <H3 ALIGN="CENTER">FACEBOOK</H2></p> 
-
-
-  <p><a href="https://web.whatsapp.com//"><image src="data:image/jpeg;base64,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" title="Whatsapp" width:"100" height:"50"></a>  <P><H3>WHATSAPP</H1><p style="text-align:center;">  <a href="https://open.spotify.com//"><image src="spotify.png" width:"550" height:"50"> </a> <H3 ALIGN="CENTER" >SPOTIFY</H2></p>
-
-  
- <p  style="text-align:left;"> <a href="https://www.linkedin.com/"><image src="data:image/png;base64,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" width:"550" height:"50"></a></p>
-  <P><H3 cursor:pointer;>LINKEDIN</H3>
- <p style="text-align:center;"> <a href="https://www.instagram.com//"><image src="insta.jpeg" width:"550" height:"50"></a></p>
-   <P><H3 ALIGN="CENTER">INSTAGRAM</H3>
-</centre>
-</body>
-<body >
-<H2 ALIGN="center">⚾IPL⚾<HR></H2><!--commant line-->
-<p> <a href="https://www.iplt20.com//"><image src="ipl.jpeg" width:"10" height:"50"></a></p>
-<P><H3>IPL</H1>
-<p style="text-align:center;"> <a href="https://mhdtvworld.me/live/jio-cinema-1//"><image src="jio.jpeg" ></a> <H3 ALIGN="CENTER"> JIO TV</H1></p>
-  <p><a href="https://madplay.live/hls/disney.php"> <image src="disney.png"></image> </a> </p>
-  <h3 ALIGN="left">DISNEY</h3>
-</body>
-
-
-
-</html>
-
-
-
